@@ -1,0 +1,112 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .calculator {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .display {
+    background-color: #222;
+    color: white;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  #btn_del {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(115, 71%, 65%);
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #btn_eq {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #eef117;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #btn_operator {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #00eff3;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .btn {
+    padding: 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #eee;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn:active {
+    background-color: #ccc;
+  }
+  
+  .clear {
+    grid-column: span 2;
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .clear:hover {
+    background-color: #d32f2f;
+  }
+  
+  .clear:active {
+    background-color: #b71c1c;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #555;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: #5dabf4;
+  }
